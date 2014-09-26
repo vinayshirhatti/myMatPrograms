@@ -1,0 +1,13 @@
+%==========================================================================
+% Vinay Shirhatti, 31 January 2014
+% Prepare data for job submission on Tyrone cluster, SERC
+%==========================================================================
+
+clear;clc;close all;
+
+monkeyName = 'testMonk';
+expDate = '310114';
+protocolName = 'mpAnalysis';
+channelNumbers = 1:96;
+folderSourceString = '/media/Data/MATLABwork/';
+gridType = 'Microelectrode';

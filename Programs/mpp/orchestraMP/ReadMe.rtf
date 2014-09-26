@@ -1,0 +1,26 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf330
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19660\viewh12600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 This folder contains programs that will allow the MP program to run on the orchestra cluster.\
+\
+Data format\
+\
+X: folder where all the raw data is stored\
+Y: Day  of recording\
+Z: protocol (SRC/GaborRF/Ripple)\
+\
+The raw data is stored in X/Y/Z/rawData\
+The data after segmenting out the stimuli etc are stored in X/Y/Z/segmentedData\
+\
+The programs in this folder do the following:\
+1. Convert the segmented data in a format that can be read by gabord\
+The data is stored in X2/Y/Z/MPData/ where X2 is a folder on orchestra\
+\
+2. Write control, header and list files\
+\
+3. Write a script that will allow MP to run on the orchestra.\
+4. Write a master script that calls the script in 3. \
+}
